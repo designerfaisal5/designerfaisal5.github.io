@@ -1,0 +1,346 @@
+/* Navigation */
+
+#mainNav {
+    background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #fed136;
+}
+
+#mainNav .navbar-brand {
+    color: deeppink;
+    font-weight: bold;
+}
+
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+    color: hotpink;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: deeppink;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        border: none;
+        background-color: transparent;
+    }
+
+    #mainNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important;
+    }
+
+    #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #212529;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+    }
+}
+
+/* Header */
+
+.cover-img {
+    max-width: 100%;
+    min-height: 650px;
+    background-image: url(./img/Cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-1 {
+    padding: 200px 0px;
+}
+
+.text-1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.text-2 {
+    font-family: sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.box-1 .btn {
+    background-color: deeppink;
+    color: white;
+    border: none;
+    padding: 20px 45px;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.box-1 .btn:hover {
+    background-color: white;
+    color: deeppink;
+}
+
+/* Services */
+
+#services {
+    padding: 100px 0px;
+}
+
+.top-h {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.top-p {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.box-2 {
+    text-align: center;
+}
+
+.img-radius {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.ser-h {
+    font-family: sans-serif;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ser-p {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: gray;
+    text-align: justify;
+}
+
+/* Gallery */
+
+#gallery {
+    padding: 100px 0px;
+    background-color: lightgoldenrodyellow;
+}
+
+#gallery img {
+    margin-bottom: 25px;
+}
+
+/* About */
+
+#about {
+    padding: 100px 0px;
+}
+
+/* Team */
+
+#team {
+    padding: 100px 0px;
+    background-color: lightgoldenrodyellow;
+}
+
+.tem-h {
+    font-family: sans-serif;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.tem-p {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 15px
+}
+
+#team a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 36px;
+    background-color: deeppink;
+    color: white;
+    margin-right: 10px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#team a:last-child {
+    margin: 0;
+}
+
+#team a:hover {
+    background-color: white;
+    color: deeppink;
+}
+
+/* Contact */
+
+#contact {
+    max-width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    background-image: url(./img/contact%20banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-control {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: gray;
+    border: none;
+    padding: 35px 30px;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.submit .btn {
+    background-color: deeppink;
+    color: white;
+    border: none;
+    padding: 20px 45px;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.submit .btn:hover {
+    background-color: white;
+    color: deeppink;
+}
+
+/* Footer */
+
+#footer {
+    padding: 50px 0px;
+    background-color: black;
+    text-align: center;
+}
+
+.footer-h {
+    font-family: sans-serif;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-p {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    text-align: justify;
+}
+
+#footer a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 36px;
+    background-color: deeppink;
+    color: white;
+    margin-right: 10px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#footer a:last-child {
+    margin: 0;
+}
+
+#footer a:hover {
+    background-color: white;
+    color: deeppink;
+}
+
+.hr-line {
+    height: 1px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cr {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+}
